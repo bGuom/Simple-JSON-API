@@ -4,7 +4,7 @@ V.1.0.18.3
 Author : Buddhi Gunarathne https://github.com/bGuom 
 Contact : dbguom@gmail.com 
 
-##LOCALHOST  INSTALLATION GUIDE
+## LOCALHOST  INSTALLATION GUIDE
 
 Clone this project
 Create new database names as 'simpleapi' in phpmyadmin
@@ -13,7 +13,7 @@ Copy simpleapi folder to the htdocs folder
 Visit 'localhost/simpleapi'
 
 
-##JSON API GUIDE 
+## JSON API GUIDE 
 
 API URL path >> **simpleapi/[command]**
 
