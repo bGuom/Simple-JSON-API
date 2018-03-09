@@ -36,3 +36,17 @@ where ID is the id of the user
 Example Result :
 >[{"ID":"5","NAME":"Peter"}]
 
+
+* Update existing user in Database 
+API URL path >> **simpleapi/update?id=ID&name=NAME** 
+where ID is the userID and NAME is the new name of the user 
+Example Result :
+>[result:success]
+
+
+* Delete existing user in Database 
+API URL path >> **simpleapi/delete?id=ID** 
+where ID is the userID to delete 
+Example Result :
+>[result:success]
+
