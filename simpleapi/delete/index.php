@@ -1,6 +1,5 @@
 <?php 
-	session_start();
-
+	
 	// variable declaration
 	$id="";
 	$errors = array();	
@@ -15,7 +14,7 @@
 
 
 
-	// register user if there are no errors in the form
+	// delete user if there are no errors in the form
 	if (count($errors) == 0) {
 
 		$query = "DELETE FROM db WHERE ID=$id";
