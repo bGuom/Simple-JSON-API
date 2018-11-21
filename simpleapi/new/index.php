@@ -1,6 +1,5 @@
 <?php 
-	session_start();
-
+	
 	// variable declaration
 	$name ="";
 	$errors = array();	
@@ -14,7 +13,7 @@
 	if (empty($name)) { array_push($errors, "UserName required"); }
 
 
-	// register user if there are no errors in the form
+	// create user if there are no errors in the form
 	if (count($errors) == 0) {
 
 		$query = "INSERT INTO db (NAME) VALUES('$name')";
