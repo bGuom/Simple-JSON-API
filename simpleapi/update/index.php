@@ -1,6 +1,5 @@
 <?php 
-	session_start();
-
+	
 	// variable declaration
 	$id="";
 	$name ="";
@@ -17,7 +16,7 @@
 	if (empty($name)) { array_push($errors, "UserName required"); }
 
 
-	// register user if there are no errors in the form
+	// update user if there are no errors in the form
 	if (count($errors) == 0) {
 
 		$query = "UPDATE db SET NAME= '$name' WHERE ID=$id";
